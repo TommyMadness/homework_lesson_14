@@ -68,3 +68,16 @@ class SearchResultsPage:
         assert price_values == sorted(
             price_values
         ), f"Цены не отсортированы по возрастанию: {price_values}"
+
+    @allure.step("Переключаемся на отображение карты")
+    def toggle_map_view_from_search_results(self):
+        self.browser.all('[data-name="SummaryButtonWrapper"]').element_by(
+            have.text("На карте")
+        ).click()
+        # self.browser.element('[data-name="Map"] button').click()
+
+    @allure.step("Проверяем, что карта отображается")
+    def verify_map_is_displayed(self):
+        self.browser.element(
+            '[data-name="Map"][data-results-status="succeed"]'
+        ).wait_until(be.visible)

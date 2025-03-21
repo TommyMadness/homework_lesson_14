@@ -8,8 +8,13 @@ class FiltersPage:
     @allure.step("Выбираем количество комнат: {rooms}")
     def select_rooms(self, rooms: int):
         self.browser.element('[data-mark="FilterRoomsCount"]').click()
+        selected_rooms = self.browser.all(
+            '//div[@class="_025a50318d--dropdown--aOO1u"]//button[contains(@class, "active")]'
+        )
+        for room in selected_rooms:
+            room.click()
         self.browser.element(
-            f"ul._025a50318d--list--gT6p6 li:nth-child({rooms})"
+            f'//div[@class="_025a50318d--dropdown--aOO1u"]//*[contains(text(),"{rooms}")]'
         ).click()
 
     @allure.step("Указываем диапазон цен от {min_price} до {max_price} рублей")
