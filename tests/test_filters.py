@@ -15,9 +15,9 @@ class TestFilters:
     @allure.story("Фильтрация квартир по параметрам")
     @allure.title("Фильтр по количеству комнат и цене")
     def test_search_apartment_by_parameters(self, setup_browser):
-        main_page = MainPage()
-        filters_page = FiltersPage()
-        search_results_page = SearchResultsPage()
+        main_page = MainPage(setup_browser)
+        filters_page = FiltersPage(setup_browser)
+        search_results_page = SearchResultsPage(setup_browser)
 
         main_page.open()
         main_page.close_popup()
@@ -31,8 +31,8 @@ class TestFilters:
     @allure.story("Фильтрация объявлений по наличию видео")
     @allure.title("Проверяем, что все объявления содержат иконку видео")
     def test_filter_by_video(self, setup_browser):
-        main_page = MainPage()
-        search_results_page = SearchResultsPage()
+        main_page = MainPage(setup_browser)
+        search_results_page = SearchResultsPage(setup_browser)
 
         main_page.open()
         main_page.close_popup()

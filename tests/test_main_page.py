@@ -13,7 +13,7 @@ class TestMainPage:
     @allure.story("Проверка кликабельности кнопки 'Найти'")
     @allure.title("Кнопка 'Найти' доступна и кликабельна")
     def test_open_main_page(self, setup_browser):
-        main_page = MainPage()
+        main_page = MainPage(setup_browser)
 
         main_page.open()
         main_page.close_popup()

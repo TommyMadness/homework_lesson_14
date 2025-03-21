@@ -14,8 +14,8 @@ class TestSorting:
     @allure.story("Сортировка объявлений по цене")
     @allure.title("Проверка сортировки по возрастанию цены")
     def test_sort_by_price(self, setup_browser):
-        main_page = MainPage()
-        search_results = SearchResultsPage()
+        main_page = MainPage(setup_browser)
+        search_results = SearchResultsPage(setup_browser)
 
         main_page.open()
         main_page.close_popup()
