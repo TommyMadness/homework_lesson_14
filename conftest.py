@@ -10,15 +10,21 @@ from utils import attach
 
 DEFAULT_BROWSER_VERSION = "127.0"
 
+
 def pytest_addoption(parser):
     parser.addoption("--browser_version", default=DEFAULT_BROWSER_VERSION)
     parser.addoption(
-        "--remote", action="store_true", default=False, help="Run tests remotely via Selenoid"
+        "--remote",
+        action="store_true",
+        default=False,
+        help="Run tests remotely via Selenoid",
     )
+
 
 @pytest.fixture(scope="session", autouse=True)
 def load_env():
     load_dotenv()
+
 
 @pytest.fixture(scope="function")
 def chrome_options():
@@ -35,6 +41,7 @@ def chrome_options():
         "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
     )
     return options
+
 
 @pytest.fixture(scope="function")
 def setup_browser(request, chrome_options):
@@ -75,12 +82,15 @@ def setup_browser(request, chrome_options):
 
     browser.quit()
 
+
 @pytest.fixture
 def close_popup(setup_browser):
     """Фикстура для закрытия всплывающего окна после загрузки страницы."""
+
     def _close():
         with allure.step("Закрываем всплывающее окно, если оно появилось"):
             popup_close_button = setup_browser.element("button[title='Закрыть']")
-            if popup_close_button.matching(be.visible): #TODO переделать для Selenoid
+            if popup_close_button.matching(be.visible):  # TODO переделать для Selenoid
                 popup_close_button.click()
+
     return _close
