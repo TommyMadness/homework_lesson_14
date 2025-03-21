@@ -51,7 +51,7 @@ class TestCian:
             )
 
     @allure.title("Фильтрация по наличию видео")
-    def test_filter_by_photo(self, setup_browser, close_popup):
+    def test_filter_by_video(self, setup_browser, close_popup):
         browser = setup_browser
 
         with allure.step("Открываем страницу поиска квартир с произвольным запросом"):
@@ -117,4 +117,3 @@ class TestCian:
             assert price_values == sorted(
                 price_values
             ), f"Цены не отсортированы по возрастанию: {price_values}"
-
