@@ -34,8 +34,7 @@ class TestMainPage:
         main_page.open()
         main_page.close_popup()
         filters_page.select_rooms(2)
-        filters_page.set_price_range("20_000_000", "30_000_000")
-        # search_page.go_to_search_results()
+        filters_page.set_price_range("10_000_000", "15_000_000")
         filters_page.apply_filters()
 
         search_page.toggle_map_view_from_search_results()
