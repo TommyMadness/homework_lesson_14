@@ -58,7 +58,7 @@ ___
 
 ### ⚙️ Локально:
 ```bash
-pytest tests/ --browser_version=134.0 --headed
+pytest tests/ --browser_version=134.0
 ```
 
 ### ☁️ Через Selenoid (удаленно):
@@ -87,7 +87,6 @@ pytest tests/ --remote --browser_version=134.0
 
 ### 📬 Уведомление через Telegram бота
 <img src="https://github.com/TommyMadness/homework_lesson_14/blob/main/images/Screenshot_telegram.png" width="340" height="340"/>
-
 ---
 
 ## Автор проекта:
