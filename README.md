@@ -2,12 +2,7 @@
 ___
 
 ### Используемый стек:  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" height="40" width="40" />  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytest/pytest-original-wordmark.svg" height="40" width="40" />  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/selenium/selenium-original.svg" height="40" width="40" />  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/chrome/chrome-original-wordmark.svg" width="40" height="40"/>  
-<img src="https://plugins.jetbrains.com/files/12513/656687/icon/default.svg" width="40" height="40"/>  
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1200px-Telegram_logo.svg.png" width="40" height="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" height="40" width="40" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytest/pytest-original-wordmark.svg" height="40" width="40" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/selenium/selenium-original.svg" height="40" width="40" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/chrome/chrome-original-wordmark.svg" width="40" height="40"/> <img src="https://plugins.jetbrains.com/files/12513/656687/icon/default.svg" width="40" height="40"/> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1200px-Telegram_logo.svg.png" width="40" height="40"/>
 
 ---
 
@@ -91,7 +86,7 @@ pytest tests/ --remote --browser_version=134.0
 ### 🎬 Видеозапись выполнения теста (если опция включена)
 
 ### 📬 Уведомление через Telegram бота
-<img src="https://github.com/TommyMadness/homework_lesson_14/tree/main/images/Screenshot_telegram.png" width="340" height="340"/>
+<img src="https://github.com/TommyMadness/homework_lesson_14/blob/main/images/Screenshot_telegram.png" width="340" height="340"/>
 
 ---
 
