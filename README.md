@@ -80,8 +80,10 @@ pytest tests/ --remote --browser_version=134.0
 ## Примеры отчётов:
 
 ### 📋 Allure Report — Общий результат
+<img src="https://github.com/TommyMadness/homework_lesson_14/blob/main/images/Screenshot_overview.png" width="840" height="440"/>
 
 ### 🔍 Allure Report — Подробный результат
+<img src="https://github.com/TommyMadness/homework_lesson_14/blob/main/images/Screenshot_expanded_results.png" width="840" height="440"/>
 
 ### 🎬 Видеозапись выполнения теста (если опция включена)
 
