@@ -74,7 +74,6 @@ class SearchResultsPage:
         self.browser.all('[data-name="SummaryButtonWrapper"]').element_by(
             have.text("На карте")
         ).click()
-        # self.browser.element('[data-name="Map"] button').click()
 
     @allure.step("Проверяем, что карта отображается")
     def verify_map_is_displayed(self):
