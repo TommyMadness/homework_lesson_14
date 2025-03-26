@@ -2,7 +2,7 @@
 ___
 
 ### Используемый стек:  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" height="40" width="40" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytest/pytest-original-wordmark.svg" height="40" width="40" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/selenium/selenium-original.svg" height="40" width="40" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/chrome/chrome-original-wordmark.svg" width="40" height="40"/> <img src="https://plugins.jetbrains.com/files/12513/656687/icon/default.svg" width="40" height="40"/> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1200px-Telegram_logo.svg.png" width="40" height="40"/>
+<img src="./images/icons/Python_logo.svg" width="40" height="40" />  <img src="./images/icons/Pytest_logo.svg" width="40" height="40" />  <img src="./images/icons/Selenium_logo.svg" width="40" height="40" />  <img src="./images/icons/Chrome_logo.svg" width="40" height="40" />  <img src="./images/icons/Allure_logo.svg" width="40" height="40" />  <img src="./images/icons/Telegram_logo.svg" width="40" height="40" />
 
 ---
 
