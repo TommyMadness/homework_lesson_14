@@ -86,7 +86,7 @@ pytest tests/ --remote --browser_version=134.0
 <img src="images/Screenshot_expanded_results.png" width="840"/>
 
 ### 🎬 Видеозапись выполнения теста (если опция включена)
-<img src="images/test_preview.gif" width="600"/>
+<img src="images/Autotests_gif.gif" width="600"/>
 
 ### 📬 Уведомление через Telegram бота
 <img src="images/Screenshot_telegram.png" width="300"/>
